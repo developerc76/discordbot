@@ -1,24 +1,5 @@
-Install Python3: 
-
-Windows: 
-
-```bash
-winget install python3
-```
-    
-Linux: 
-
-```bash
-sudo apt install python3
-```
-
-MacOS: 
-
-```bash
-brew install python3
-```
-
-Create a Virtual Environment
+Create a Virtual Environment (The app has set the interpreter to 
+be .venv, so don't rename folders and use this command to create a venv)
 
 ```bash
 python3 -m venv .venv
@@ -29,3 +10,5 @@ Install Discord API:
 ```bash
 pip install discord
 ```
+
+Add to your server! 
